@@ -25,7 +25,8 @@
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
     "prepare": "husky install",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "release:ci": "npx semantic-release --repositoryUrl git@github.com:sumit-dash-panigrahi/poc-stencil-template.git"
   },
   "dependencies": {
     "@stencil/core": "^2.13.0"
