@@ -1,6 +1,6 @@
 {
   "name": "poc-template",
-  "version": "0.0.1",
+  "version": "0.0.0-development",
   "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -24,17 +24,22 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
     "generate": "stencil generate",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "@stencil/core": "^2.13.0"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/jest": "^27.0.3",
     "husky": "^8.0.1",
     "jest": "^27.4.5",
     "jest-cli": "^27.4.5",
-    "puppeteer": "^10.0.0"
+    "puppeteer": "^10.0.0",
+    "semantic-release": "^19.0.3"
   },
   "license": "MIT"
 }
